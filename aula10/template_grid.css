@@ -1,0 +1,47 @@
+body{
+    height: 795px;
+    width: 1660px;
+    display: grid;
+    grid-template-areas: 
+    "ml header mr"
+    "ml contend mr"
+    "ml footer mr";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    margin: 0px;
+}
+
+.col1{
+    grid-area: ml;
+    background-color: black;
+}.c1{
+    height: 560px;
+    width: 200px;
+    display: grid;
+    grid-template-areas: 
+    "img"
+    "caixa2"
+    "caixa3";
+    grid-template-columns: 200px;
+    grid-template-rows: 1fr 186px 186px;
+}.img{
+    grid-area: img;
+}.caixa2{
+    grid-area: caixa2;
+    background-color: red;
+}.caixa3{
+    grid-area: caixa3;background-color: palegoldenrod;
+}.header{
+    grid-area: header;
+    background-color: purple;
+}.contend{
+    grid-area: contend;
+    background-color: aquamarine;
+}.footer{
+    grid-area: footer;
+    background-color: blue;
+}.col3{
+    grid-area: mr;
+    background-color: yellow;
+
+}
